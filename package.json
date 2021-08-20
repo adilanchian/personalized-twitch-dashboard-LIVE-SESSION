@@ -1,0 +1,15 @@
+{
+  "name": "create-next-app-replit",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "TWITCH_CLIENT_ID=\"$TWITCH_CLIENT_ID\" TWITCH_SECRET_ID=\"$TWITCH_SECRET_ID\" DB_URL=\"$REPLIT_DB_URL\" next dev",
+    "build": "next build",
+    "start": "next start"
+  },
+  "dependencies": {
+    "next": "10.0.9",
+    "react": "17.0.2",
+    "react-dom": "17.0.2"
+  }
+}
